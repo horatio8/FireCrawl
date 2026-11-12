@@ -1,0 +1,601 @@
+url,result,ms,apiStatus,pageStatus,chars,title,error
+"https://books.toscrape.com/catalogue/page-1.html","ok","8802","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","13169","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","13177","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","13177","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","13186","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","13188","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","13187","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","13189","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","13194","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","13200","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","4547","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","12997","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","13002","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","13016","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","12990","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","13025","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","13011","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","14849","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","14809","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","14958","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","14940","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","8390","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","8388","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","8378","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","10367","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-1.html","ok","10363","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","10376","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","12706","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","14614","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","15383","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","15391","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","10337","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","10367","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","10427","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","16689","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","16751","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","16871","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","9960","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","10018","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","12806","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","10794","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","12658","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","12649","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","12607","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","10565","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","10637","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-1.html","ok","14497","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","14638","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","14546","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","14545","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","14622","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","14591","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","16740","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","16870","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","10619","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","10629","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","12728","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","14658","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","14745","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","14813","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","10723","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","14862","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","14619","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","14846","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","14717","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","8525","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","14778","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","12712","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","12981","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","12803","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","12771","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","12890","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","12901","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","12816","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","12857","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","12718","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-1.html","ok","12721","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","12748","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","12985","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","12912","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","12926","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","12917","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","12857","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","12862","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","12863","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","12922","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","12918","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","12500","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","12654","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","12492","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","14558","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","14654","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","16538","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","16625","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","16628","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","10470","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","16707","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","16710","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","12371","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","12374","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","14478","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-1.html","ok","18645","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","12590","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","12617","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","12597","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","12764","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","12596","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","12598","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","14845","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","14920","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","6565","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","10638","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","12820","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","12794","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","12806","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","12809","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","12811","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","12821","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","12659","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","12794","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","12741","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","12745","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","10438","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","16574","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","18614","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","14727","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","18891","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","18908","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","14837","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","14783","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","14792","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-1.html","ok","18947","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","4587","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","10775","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","13071","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","13011","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","13015","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","13348","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","13021","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","13046","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","13080","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","13050","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","12799","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","12854","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","12595","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","14752","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","14879","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","12853","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","14892","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","14893","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","12863","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-1.html","ok","14896","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","14906","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","14901","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","4595","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","12855","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","12856","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","12863","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","14918","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","14850","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","14872","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","14933","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","15046","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","15038","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","15286","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","6371","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","6436","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","6440","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","12974","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","13066","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","12843","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","12968","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","12867","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","13061","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","14315","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-2.html","ok","12638","200","200","9592","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-3.html","ok","12655","200","200","10133","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-1.html","ok","12736","200","200","9222","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-8.html","ok","16595","200","200","9876","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-6.html","ok","18624","200","200","10351","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-4.html","ok","18677","200","200","11268","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-5.html","ok","18852","200","200","10600","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-11.html","ok","14755","200","200","9288","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-9.html","ok","18775","200","200","9537","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-7.html","ok","18788","200","200","9908","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-13.html","ok","14784","200","200","9790","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-12.html","ok","14912","200","200","9323","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-10.html","ok","14973","200","200","9870","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-14.html","ok","2549","200","200","9524","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-15.html","ok","6833","200","200","9997","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-16.html","ok","6850","200","200","9531","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-19.html","ok","8891","200","200","9881","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-17.html","ok","8927","200","200","9551","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-18.html","ok","8928","200","200","9589","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-22.html","ok","14986","200","200","9424","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-21.html","ok","15101","200","200","9072","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-25.html","ok","8516","200","200","10678","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-24.html","ok","14835","200","200","9384","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-23.html","ok","15023","200","200","10290","
+    All products | Books to Scrape - Sandbox
+",""
+"https://books.toscrape.com/catalogue/page-20.html","ok","15196","200","200","9852","
+    All products | Books to Scrape - Sandbox
+",""

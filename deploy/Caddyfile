@@ -1,0 +1,8 @@
+# SITE_ADDRESS is a domain (Caddy fetches a TLS certificate automatically)
+# or ":80" for plain HTTP while testing.
+{$SITE_ADDRESS} {
+	@unauthorised not header Authorization "Bearer {$API_TOKEN}"
+	respond @unauthorised "unauthorised" 401
+
+	reverse_proxy api:3002
+}

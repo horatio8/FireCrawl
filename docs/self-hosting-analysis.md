@@ -122,19 +122,19 @@ This version is the only one that fits on Vercel. You lose crawling at scale, qu
 - A "page" is one scrape. Firecrawl charges 1 credit per scrape or crawled page, 2 credits per 10 search results, and an extra 4 credits per page for JSON extraction.
 - Vercel Pro: $20/month per seat with $20 of usage included. Fluid compute: $0.128 per active CPU hour, $0.0106 per GB-hour of provisioned memory, $0.60 per million invocations (lowest-cost regions; others cost more). Function limits: 800 s max duration, 4 GB memory, 250 MB bundle, no Docker, no persistent workers. Hobby is not allowed for commercial use.
 - Browser scrape on Vercel: about 2 s of active CPU and 2 GB held for 5 s. That works out to roughly **$0.0001 per page**. A fetch-only scrape (no browser) is about **$0.00001 per page**.
-- VPS: Hetzner raised prices in June 2026. Current figures are roughly €12-20/month for 4 vCPU / 8 GB and about €41/month for the Arm CAX41 (16 vCPU / 32 GB). DigitalOcean, Vultr and similar cost two to three times more for the same spec.
+- VPS: Hetzner cost-optimised line, checked 12 November 2026: CX33 (4 vCPU / 8 GB) €8.99, CX43 (8 vCPU / 16 GB) €16.49, CX53 (16 vCPU / 32 GB) €29.99 per month, Germany or Finland. DigitalOcean, Vultr and similar cost several times more for the same spec. The table uses the CX43.
 - Proxy and LLM costs are the same whether you use a VPS or Vercel, so they are listed separately.
 
 ### Monthly cost by volume (scrapes only, no JSON extraction)
 
 | Pages per month | Firecrawl cloud | Vercel (slim DIY scraper, all pages in a browser) | VPS (full Firecrawl stack) |
 | --- | --- | --- | --- |
-| 1,000 | $0 (free tier) | $20 (seat fee) | ~€12 |
-| 5,000 | $19 (Hobby) | $20 | ~€12 |
-| 100,000 | $99 (Standard) | ~$20 (fits inside included credit) | ~€12-20 |
-| 500,000 | $399 (Growth) | ~$50 | ~€20-41 |
-| 1,000,000 | $749 (Scale) | ~$100-120 | ~€41 |
-| 1,000,000 with JSON extraction | ~5M credits, enterprise pricing | ~$110 + LLM tokens | ~€41 + LLM tokens |
+| 1,000 | $0 (free tier) | $20 (seat fee) | €16.49 |
+| 5,000 | $19 (Hobby) | $20 | €16.49 |
+| 100,000 | $99 (Standard) | ~$20 (fits inside included credit) | €16.49 |
+| 500,000 | $399 (Growth) | ~$50 | €16.49 |
+| 1,000,000 | $749 (Scale) | ~$100-120 | €16.49 |
+| 1,000,000 with JSON extraction | ~5M credits, enterprise pricing | ~$110 + LLM tokens | €16.49 + LLM tokens |
 
 If most pages can be fetched without a browser, the Vercel column drops by up to 90%, and Vercel becomes cost-competitive with a VPS up to a few hundred thousand pages.
 
@@ -149,12 +149,14 @@ If most pages can be fetched without a browser, the Vercel column drops by up to
 | Engineering time | None | Highest. You are writing and maintaining the scraper | Medium. Initial setup plus upgrades, backups and monitoring |
 | Blocked IPs | Their problem | Vercel runs on AWS IPs, which many sites already block | VPS IPs are also datacenter IPs. Same problem |
 
+See `docs/vps-plan.md` for the costed setup and test plan, including results from a real run of the stack.
+
 ## 5. Verdict
 
 **Self-host on a VPS, not on Vercel.**
 
 - Vercel cannot run Firecrawl. Hosting there means writing and maintaining your own reduced scraper. You also give up crawling, the engine waterfall and free search.
-- A single Hetzner-class VPS at about €12-41/month runs the real Firecrawl stack with no per-page charge. It beats Firecrawl cloud from around 5,000 pages a month and beats Vercel above a few hundred thousand browser pages.
+- A single Hetzner VPS at €16.49/month runs the real Firecrawl stack with no per-page charge. It beats Firecrawl cloud from around 5,000 pages a month and matches or beats Vercel at every volume.
 - Vercel only comes out ahead if you scrape fewer than about 100,000 pages a month, most pages don't need a browser, you already pay for Vercel Pro, and you are happy to own the scraper code.
 
 **The real risk with self-hosting is the sites, not the hosting.** Without Fire-engine, protected sites will block you. Before you commit, run your actual target URLs through a self-hosted instance and measure the success rate. If it is low, the honest comparison becomes "VPS plus a residential proxy" against Firecrawl's price, and a paid plan may still win for that subset.

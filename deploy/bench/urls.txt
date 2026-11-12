@@ -1,0 +1,43 @@
+# Replace this list with the sites your bot actually needs. That is the test that matters.
+
+# Plain server-rendered pages
+https://example.com
+https://en.wikipedia.org/wiki/Web_scraping
+https://news.ycombinator.com
+https://www.bbc.com/news
+https://www.abc.net.au/news
+https://www.theguardian.com/au
+https://docs.python.org/3/tutorial/index.html
+https://github.com/firecrawl/firecrawl
+https://stackoverflow.com/questions/11227809
+https://www.gov.uk/browse/benefits
+https://www.ato.gov.au/individuals-and-families
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+
+# Pages that need JavaScript to render
+https://quotes.toscrape.com/js/
+https://react.dev/learn
+https://www.airbnb.com.au/
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+https://www.npmjs.com/package/playwright
+
+# Documents
+https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf
+https://arxiv.org/pdf/1706.03762
+
+# Commerce and listings
+https://books.toscrape.com/
+https://www.amazon.com.au/dp/B0CHX1W1XY
+https://www.ebay.com.au/
+https://www.realestate.com.au/buy
+https://www.seek.com.au/jobs
+
+# Sites known for aggressive bot protection
+https://www.linkedin.com/company/anthropic
+https://www.indeed.com/jobs?q=engineer
+https://www.g2.com/products/firecrawl/reviews
+https://www.zillow.com/homes/for_sale/
+https://www.crunchbase.com/organization/anthropic
+https://www.reddit.com/r/webscraping/
+https://x.com/firecrawl_dev
+https://www.instagram.com/natgeo/

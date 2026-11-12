@@ -1,0 +1,140 @@
+# Self-hosted Firecrawl on a single VPS, using the published images (no build step).
+# Only Caddy is exposed. Everything else stays on the private Docker network.
+name: firecrawl
+
+x-logging: &logging
+  driver: json-file
+  options: { max-size: "10m", max-file: "3" }
+
+services:
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-80}:80"
+      - "${HTTPS_PORT:-443}:443"
+    environment:
+      SITE_ADDRESS: ${SITE_ADDRESS:?set SITE_ADDRESS in .env}
+      API_TOKEN: ${API_TOKEN:?set API_TOKEN in .env}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+    depends_on: [api]
+    networks: [backend]
+    logging: *logging
+
+  api:
+    image: ghcr.io/firecrawl/firecrawl:${FIRECRAWL_TAG:-latest}
+    restart: unless-stopped
+    command: node dist/src/harness.js --start-docker
+    ulimits:
+      nofile: { soft: 65535, hard: 65535 }
+    environment:
+      HOST: "0.0.0.0"
+      PORT: 3002
+      EXTRACT_WORKER_PORT: 3004
+      WORKER_PORT: 3005
+      ENV: local
+      USE_DB_AUTHENTICATION: "false"
+      REDIS_URL: redis://redis:6379
+      REDIS_RATE_LIMIT_URL: redis://redis:6379
+      NUQ_RABBITMQ_URL: amqp://rabbitmq:5672
+      PLAYWRIGHT_MICROSERVICE_URL: http://playwright-service:3000/scrape
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: postgres
+      POSTGRES_HOST: nuq-postgres
+      POSTGRES_PORT: 5432
+      NUM_WORKERS_PER_QUEUE: ${NUM_WORKERS_PER_QUEUE:-8}
+      CRAWL_CONCURRENT_REQUESTS: ${CRAWL_CONCURRENT_REQUESTS:-10}
+      MAX_CONCURRENT_JOBS: ${MAX_CONCURRENT_JOBS:-5}
+      BROWSER_POOL_SIZE: ${BROWSER_POOL_SIZE:-5}
+      BULL_AUTH_KEY: ${BULL_AUTH_KEY:-}
+      SEARXNG_ENDPOINT: http://searxng:8080
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_BASE_URL: ${OPENAI_BASE_URL:-}
+      MODEL_NAME: ${MODEL_NAME:-}
+      PROXY_SERVER: ${PROXY_SERVER:-}
+      PROXY_USERNAME: ${PROXY_USERNAME:-}
+      PROXY_PASSWORD: ${PROXY_PASSWORD:-}
+      LOGGING_LEVEL: ${LOGGING_LEVEL:-info}
+    depends_on:
+      redis: { condition: service_started }
+      playwright-service: { condition: service_started }
+      rabbitmq: { condition: service_healthy }
+      nuq-postgres: { condition: service_healthy }
+    mem_limit: ${API_MEM_LIMIT:-8g}
+    networks: [backend]
+    logging: *logging
+
+  playwright-service:
+    image: ghcr.io/firecrawl/playwright-service:${PLAYWRIGHT_TAG:-latest}
+    restart: unless-stopped
+    # The image's default start command downloads pnpm on every boot. Run the server directly.
+    command: node dist/api.js
+    environment:
+      PORT: 3000
+      PROXY_SERVER: ${PROXY_SERVER:-}
+      PROXY_USERNAME: ${PROXY_USERNAME:-}
+      PROXY_PASSWORD: ${PROXY_PASSWORD:-}
+      BLOCK_MEDIA: ${BLOCK_MEDIA:-true}
+      MAX_CONCURRENT_PAGES: ${CRAWL_CONCURRENT_REQUESTS:-10}
+    mem_limit: ${PLAYWRIGHT_MEM_LIMIT:-4g}
+    tmpfs:
+      - /tmp/.cache:noexec,nosuid,size=1g
+    networks: [backend]
+    logging: *logging
+
+  redis:
+    image: redis:alpine
+    restart: unless-stopped
+    command: redis-server --bind 0.0.0.0
+    networks: [backend]
+    logging: *logging
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "-q", "check_running"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks: [backend]
+    logging: *logging
+
+  nuq-postgres:
+    image: ghcr.io/firecrawl/nuq-postgres:${NUQ_POSTGRES_TAG:-latest}
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 5s
+    volumes:
+      - pg-data:/var/lib/postgresql/data
+    networks: [backend]
+    logging: *logging
+
+  searxng:
+    image: searxng/searxng:latest
+    restart: unless-stopped
+    environment:
+      SEARXNG_SECRET: ${SEARXNG_SECRET:?set SEARXNG_SECRET in .env}
+    volumes:
+      - ./searxng/settings.yml:/etc/searxng/settings.yml:ro
+    networks: [backend]
+    logging: *logging
+
+networks:
+  backend:
+
+volumes:
+  caddy-data:
+  pg-data:
